@@ -11,6 +11,10 @@ def get_random_num():                   # рандомайзер
 def if_even(num):                       # проверка на четность
     if num % 2 == 0:
         return num
+    
+
+def get_sum(num1, num2):
+    return num1 + num2
 
     
 # текстовый блок: приветствие, имя пользователя, 

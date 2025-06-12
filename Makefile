@@ -19,5 +19,4 @@ package-install:
 lint:
 	uv run ruff check brain_games
 
-lint_fix:
-	uv run ruff check --fix
+
