@@ -25,7 +25,7 @@ def main():
                   )
             break
         
-        if x == 3:
+    if x == 2:
             end_game(user_name)
    
 

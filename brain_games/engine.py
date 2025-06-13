@@ -13,8 +13,23 @@ def if_even(num):                       # проверка на четность
         return num
     
 
-def get_sum(num1, num2):
+def get_sum(num1, num2):                #сумма двух чисел
     return num1 + num2
+
+
+def get_divider(num1, num2):            #наибольший общий делитель
+    if num1 == 0 or num2 == 0:
+        return num1 + num2
+    if num1 > num2 and num1 % num2 == 0:
+        return num2
+    elif num2 > num1 and num2 % num1 == 0:
+        return num1
+    while num1 != 0 and num2 != 0:
+        if num1 > num2:
+            num1 = num1 % num2
+        else:
+            num2 = num2 % num1
+    return num1 + num2 
 
     
 # текстовый блок: приветствие, имя пользователя, 
