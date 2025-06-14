@@ -1,9 +1,8 @@
 from brain_games.engine import (
-    start_game,
+    end_game,
     get_good_day_name,
     get_random_num,
-    get_divider,
-    end_game
+    start_game,
 )
 from brain_games.games.gcd import get_gcd, question
 
@@ -12,8 +11,8 @@ def main():
     user_name = get_good_day_name()
     start_game(question)
     for x in range(0, 3):
-        num1 = get_random_num()
-        num2 = get_random_num()
+        num1 = get_random_num(1, 100)
+        num2 = get_random_num(1, 100)
         print(f"Question: {num1} {num2}")
         right_answer = get_gcd(num1, num2)
         user_answer = input("Your answer: ")

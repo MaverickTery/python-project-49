@@ -11,7 +11,7 @@ def main():
     user_name = get_good_day_name()
     start_game(question)
     for x in range(0, 3):
-        ask_num = get_random_num()
+        ask_num = get_random_num(1, 100)
         print(f"Question: {ask_num}")
         right_answer = get_even(ask_num)
         user_answer = input("Your answer: ")

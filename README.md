@@ -4,3 +4,4 @@
 even: https://asciinema.org/a/gBVkuIVhAxHB4CVpcXlUSbZYo
 sum:  https://asciinema.org/a/YgmSbbUYxndsDqno4Jzuz1vsP
 gcd:  https://asciinema.org/a/9bhMALhfwrl0UO3cIYPvcO9m2
+progression:  https://asciinema.org/a/jsuomsFiYVKH2qaEm7N2WhlHv

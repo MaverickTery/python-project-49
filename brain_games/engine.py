@@ -3,8 +3,8 @@ import random
 from brain_games.greeting import greeting, welcome_user
 
 
-def get_random_num():                   # рандомайзер
-    random_num = random.randint(0, 100)
+def get_random_num(num1, num2):                   # рандомайзер
+    random_num = random.randint(num1, num2)
     return random_num
 
 
@@ -13,11 +13,11 @@ def if_even(num):                       # проверка на четность
         return num
     
 
-def get_sum(num1, num2):                #сумма двух чисел
+def get_sum(num1, num2):                # сумма двух чисел
     return num1 + num2
 
 
-def get_divider(num1, num2):            #наибольший общий делитель
+def get_divider(num1, num2):            # наибольший общий делитель
     if num1 == 0 or num2 == 0:
         return num1 + num2
     if num1 > num2 and num1 % num2 == 0:
@@ -30,6 +30,16 @@ def get_divider(num1, num2):            #наибольший общий дел�
         else:
             num2 = num2 % num1
     return num1 + num2 
+
+
+def get_sequence(start_num, step):      # последовательность
+    result = []
+    count = 0
+    while count < 10:
+        result.append(str(start_num))
+        start_num += step
+        count += 1
+    return result
 
     
 # текстовый блок: приветствие, имя пользователя, 
