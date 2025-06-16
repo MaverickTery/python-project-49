@@ -1,1 +1,4 @@
+# Distribution / packaging
 .venv
+# Asciinema recordings
+*.cast
