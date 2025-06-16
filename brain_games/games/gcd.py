@@ -10,5 +10,3 @@ question = 'Find the greatest common divisor of given numbers.'
 # условие игры
 def get_gcd(num1, num2):
     return get_divider(num1, num2)
-
-  

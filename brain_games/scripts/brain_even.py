@@ -1,8 +1,8 @@
 from brain_games.engine import (
-    start_game,
+    end_game,
     get_good_day_name,
     get_random_num,
-    end_game,
+    start_game,
 )
 from brain_games.games.even import get_even, question
 
@@ -29,4 +29,3 @@ def main():
 
 if __name__ == "__main__":
     main()
- 
