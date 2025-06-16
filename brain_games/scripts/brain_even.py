@@ -1,8 +1,8 @@
 from brain_games.engine import (
-    end_game,
+    start_game,
     get_good_day_name,
     get_random_num,
-    start_game,
+    end_game,
 )
 from brain_games.games.even import get_even, question
 
