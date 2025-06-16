@@ -67,7 +67,7 @@ def start_game(question):
 
 
 def end_game(user_name):
-    farewall = f"Congratilations, {user_name}!"
+    farewall = f"Congratulations, {user_name}!"
     print(farewall)
 
 
