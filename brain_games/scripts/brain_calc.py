@@ -25,7 +25,7 @@ def main():
                   )
             break
         
-    if x == 2:
+    if x == 2 and right_answer == int(user_answer):
         end_game(user_name)
    
 

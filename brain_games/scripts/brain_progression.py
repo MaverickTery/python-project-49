@@ -32,7 +32,7 @@ def main():
                   f"Let's try again, {user_name}!"
                   )
             break
-    if x == 2:
+    if x == 2 and right_answer == int(user_answer):
         end_game(user_name)
    
 
