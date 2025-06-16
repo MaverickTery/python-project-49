@@ -1,4 +1,5 @@
 import random
+from math import sqrt
 
 from brain_games.greeting import greeting, welcome_user
 
@@ -30,6 +31,17 @@ def get_divider(num1, num2):            # наибольший общий дел
         else:
             num2 = num2 % num1
     return num1 + num2 
+
+
+def if_prime(num):                      # простое число
+    if num < 2:
+        return 'no'
+    divider = 2
+    while divider < sqrt(num) + 1:
+        if num % divider == 0:
+            return 'no'
+        divider += 1
+    return 'yes'
 
 
 def get_sequence(start_num, step):      # последовательность
