@@ -2,7 +2,7 @@ import prompt
 
 
 def greeting():
-    print("Welcome to the Brain Games")
+    print("Welcome to the Brain Games!")
     return prompt.string('May I have your name? ')
     
 
